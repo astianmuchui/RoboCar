@@ -116,6 +116,7 @@ void regulateSpeed(){
   if(reg_speed<8){
     reg_speed = 0;
   }
+  map(reg_speed,0,1023,0,255);
   analogWrite(en1,reg_speed);
   analogWrite(en2,reg_speed);
 }
