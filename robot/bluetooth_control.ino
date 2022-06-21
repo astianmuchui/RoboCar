@@ -16,7 +16,7 @@
 // INITIALIZING VARIABLES
 int EN1 = 14;     // MOTOR 1 CONNECTIONS 
 int IN1A = 12;
-int IN1B = 11;
+int IN1B = 13;
 
 int EN2 = 5;      // MOTOR 2 CONNECTIONS
 int IN2A = 19;
