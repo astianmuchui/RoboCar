@@ -1,14 +1,9 @@
-/*
-   Gamepad module provides three different mode namely Digital, JoyStick and Accelerometer.
-   The written code is for Digital control 
-     Challenge can be found at line 139
-     Modified by GM  
-*/
+
 #define CUSTOM_SETTINGS
 #define INCLUDE_GAMEPAD_MODULE
 #include <DabbleESP32.h>
 
-#define PWM1_Ch1    0     //PWM INIT STUFF -- try NOT to alter this part
+#define PWM1_Ch1    0     //PWM INIT STUFF
 #define PWM1_Ch2    1
 #define PWM1_Res   8      // Setting speed bounds where 0 is minimum and 255 is maximum
 #define PWM1_Freq  5000
