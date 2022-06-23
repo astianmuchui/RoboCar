@@ -1,5 +1,4 @@
 //simple control version
-// feel free to add your own functions ;)
 
 // INITIALIZING VARIABLES
 int EN1 = 14;     // MOTOR 1 connections
